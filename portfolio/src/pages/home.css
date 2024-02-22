@@ -1,0 +1,29 @@
+.main {
+    border: solid red;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: black;
+    padding: 15px;
+    height: 95vh;
+}
+.title {
+    background-color: #D4B4B4;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+}
+.heart-div {
+    border: solid gray;
+    display: flex;
+    align-items: flex-start;
+}
+.letter-div {
+  border: solid blue;
+  height: 100%;
+  font-size: 300px;
+  margin-top: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #222121;
+  text-shadow: 2px 2px 4px #000000;
+
+}
